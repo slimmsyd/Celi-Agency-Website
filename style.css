@@ -1,6 +1,9 @@
 
 
-@media screen and (max-width: 749px) { 
+@media screen and (max-width: 749px) {
+    .header-img {
+        width: auto !important;
+    } 
     header { 
         flex-direction: column;
     }
