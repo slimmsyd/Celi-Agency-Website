@@ -1,6 +1,9 @@
 
 
 @media screen and (max-width: 749px) {
+    .container-right { 
+        animation: none !important;
+    }
     .circles {
         left: none !important;
         padding: 0 !important;
