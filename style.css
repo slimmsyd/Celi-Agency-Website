@@ -3,6 +3,7 @@
 @media screen and (max-width: 749px) {
     .circles {
         left: none !important;
+        padding: 0 !important;
     }
     .header-img {
         width: auto !important;
