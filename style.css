@@ -4,6 +4,9 @@
     header { 
         flex-direction: column;
     }
+    .circles  { 
+        left: 0;
+    }
 
     .place-holder { 
         margin: 2rem;
