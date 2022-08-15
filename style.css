@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 749px) {
     .circles {
-        left: auto !important;
+        left: none !important;
     }
     .header-img {
         width: auto !important;
