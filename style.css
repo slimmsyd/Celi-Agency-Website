@@ -15,7 +15,7 @@
     .stats-video, .container-right { 
         width: 100% !important;
     }
-    .square3 { 
+    .square3, .square1, .square2 { 
         display: none;
     }
 
