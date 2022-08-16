@@ -71,12 +71,16 @@ img {
     font-weight: 700;
 }
 
+h1 { 
+    font-size: 36px !important;
+}
+
 h2 { 
-    font-size: 40px;
+    font-size: 32px;
 }
 
 h3 { 
-    font-size: 30px;  
+    font-size: 28px;  
     font-weight: 600;
     
 }
