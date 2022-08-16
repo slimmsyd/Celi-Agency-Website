@@ -72,20 +72,20 @@ img {
 }
 
 h1 { 
-    font-size: 36px !important;
+    font-size: 32px !important;
 }
 
 h2 { 
-    font-size: 32px;
+    font-size: 28px;
 }
 
 h3 { 
-    font-size: 28px;  
+    font-size: 24px;  
     font-weight: 600;
     
 }
 p {
-    font-size: 24px;
+    font-size: 19px;
 
     color: #868686;
     
@@ -191,7 +191,6 @@ header {
     
 }
 .header {
-    min-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
