@@ -32,6 +32,11 @@
         display: none;
     }
 
+
+    .outer-placement, .nobg  {
+        display: none !important;
+    }
+
 }
 
 body { 
