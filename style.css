@@ -318,7 +318,6 @@ background: transparent !important;
     animation: slide 20s linear infinite;    
     width: 1900px;
     height: 400px;
-    background: var(--primary);
 }
 .container-right img { 
     object-fit: cover;
