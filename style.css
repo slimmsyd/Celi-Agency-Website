@@ -443,7 +443,7 @@ flex-direction: column;
 
 
 .lower-sections { 
-    min-height: 100vh;
+    min-height: 85vh;
     background-color: #ffff;
     background-repeat: no-repeat;
     display: flex;
