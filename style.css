@@ -198,6 +198,7 @@ button  {
 
 header { 
     /* margin: 2rem 0rem 0rem 0rem; */
+    padding-right: 80px;
     padding-top: 3rem;
     min-height: 90vh;
     display: flex;
