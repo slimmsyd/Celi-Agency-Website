@@ -525,7 +525,7 @@ transition: box-shadow 100ms ease-in-out;
     min-height: 90vh;
     display: flex;
     flex-direction: row;
-    background: url("./images/BottomBg.png");
+    background: url("./images/WhiteBG.png");
     gap: 150px;
     align-items: center;
     background-repeat: no-repeat;
@@ -658,6 +658,7 @@ footer {
 .lower-sections { 
     padding-bottom: 3rem;
     flex-wrap: wrap;
+  
 
 }
 
@@ -811,8 +812,9 @@ footer {
 }
 
 #meet-team { 
-    background: url("/images/WhiteBG.png") !important;
-    
+    background: url("images/WhiteBG.png");
+    background-size: contain;
+    background: center center;    
 }
 
 
