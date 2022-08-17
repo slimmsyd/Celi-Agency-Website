@@ -341,7 +341,7 @@ background: transparent !important;
     height: 400px;
 }
 .container-right img { 
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }
@@ -817,7 +817,7 @@ footer {
 
 }
     
-}
+
 
 
 .section-team { 
