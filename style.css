@@ -846,3 +846,17 @@ footer {
     padding-left: 2em;
     width: 70%;
 }
+
+/* swiper css */
+@media  screen and (max-width: 749px) {
+    .swiper-slide { 
+        width: 484px !important;
+    }
+}
+.swiper-wrapper {
+    gap: 50px;
+}
+.swiper {
+    width: -webkit-fill-available;
+}
+/* swiper css */
