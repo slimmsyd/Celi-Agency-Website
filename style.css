@@ -299,8 +299,8 @@ background: transparent !important;
 }
 
 .who-we-are { 
-    min-height: 100vh;
-    background: url("./images/StoryBG.png");
+    min-height: 85vh;
+    background: url("/images/WhiteBG.png");
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
