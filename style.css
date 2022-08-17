@@ -308,6 +308,7 @@ background: transparent !important;
     /* gap: 10px; */
     z-index: -1;
     gap: 150px;
+    background-size: cover;
 }
 .who-we-are p { 
     font-size: 20px !important;
