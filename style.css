@@ -178,7 +178,7 @@ button  {
 
 .padding {
     padding-left: 80px;
-    padding-right: 80px;
+    /* padding-right: 80px; */
 }
 .nav {
     box-sizing: border-box !important;
@@ -501,7 +501,6 @@ transition: box-shadow 100ms ease-in-out;
 }
 
 .flex-modifer { 
-    align-items: flex-start;
     justify-content: normal;
     gap: 15px; 
     padding: 3rem 0rem;
