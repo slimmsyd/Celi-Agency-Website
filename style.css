@@ -299,7 +299,7 @@ background: transparent !important;
 }
 
 .who-we-are { 
-    min-height: 85vh;
+    min-height: 90vh;
     background: url("/images/WhiteBG.png");
     background-repeat: no-repeat;
     display: flex;
@@ -812,9 +812,12 @@ footer {
 }
 
 #meet-team { 
-    background: url("images/WhiteBG.png");
-    background-size: contain;
-    background: center center;    
+    background: url("/images/WhiteBG.png") !important;
+    background-size: cover;
+    background-position: center center;   
+
+}
+    
 }
 
 
