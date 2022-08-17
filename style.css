@@ -243,7 +243,7 @@ header {
 /* SOCIAL PROOF  */
 .social-proof { 
     background-color: #fff;
-    min-height: 65vh; 
+    min-height: 45vh; 
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -443,9 +443,8 @@ flex-direction: column;
 
 
 .lower-sections { 
-    min-height: 85vh;
-    background-color: #ffff;
-    background-repeat: no-repeat;
+    min-height: 90vh;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
