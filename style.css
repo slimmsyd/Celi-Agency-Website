@@ -443,8 +443,8 @@ flex-direction: column;
 
 
 .lower-sections { 
-    min-height: 90vh;
-
+    min-height: 58vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -814,6 +814,7 @@ footer {
     background: url("/images/WhiteBG.png") !important;
     background-size: cover;
     background-position: center center;   
+    background-repeat: no-repeat;
 
 }
     
