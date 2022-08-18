@@ -461,7 +461,9 @@ flex-direction: column;
     justify-self: center;
     align-self: center;
     transition: box-shadow 100ms ease-in-out;
+    /*comment out box shadow 
     box-shadow: -14px 10px 0px var(--primary);
+    */
 }
 @media screen and (max-width) {
     .stats-video { 
