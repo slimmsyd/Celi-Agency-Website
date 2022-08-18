@@ -1,6 +1,9 @@
 
 
 @media screen and (max-width: 749px) {
+    .flex-modifer  {
+        padding: 0rem !important;
+    }
     #med { 
         width: 100% !important;
     }
