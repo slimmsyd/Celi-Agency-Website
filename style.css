@@ -10,9 +10,7 @@
     .liIcon { 
         width: 95% !important;
     }
-    .container-right { 
-        animation: none !important;
-    }
+ 
     .circles {
         left: none !important;
         padding: 0 !important;
@@ -344,7 +342,7 @@ background: transparent !important;
     
 }
 .container-right{
-    transform: translateY(0px) !important;
+    /* transform: translateY(0px) !important; */
     animation: slide 20s linear infinite;    
     width: 1900px;
     height: 400px;
@@ -865,11 +863,14 @@ footer {
 /* swiper css */
 @media  screen and (max-width: 749px) {
     .swiper-slide { 
-        width: 484px !important;
+        width: 370px !important;
     }
+    
+
 }
 .swiper-wrapper {
     gap: 50px;
+
 }
 .swiper {
     width: -webkit-fill-available;
