@@ -1,5 +1,7 @@
 
-
+html { 
+    overflow-x: hidden !important;
+}
 @media screen and (max-width: 749px) {
     .flex-modifer  {
         padding: 0rem !important;
@@ -14,6 +16,21 @@
     .circles {
         left: none !important;
         padding: 0 !important;
+    }
+    .container-right { 
+        animation: slide3 20s linear infinite !important;
+    }
+    @keyframes slide3 { 
+        0% { 
+            transform: translate(0px, 0px);
+    
+        }
+        50% { 
+            transform: translate(0px, -40px);
+        }
+        100% { 
+            transform: translate(0px, 0);
+        }
     }
 
  
