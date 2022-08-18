@@ -19,6 +19,10 @@ html {
     }
     .container-right { 
         animation: slide3 20s linear infinite !important;
+        height: auto !important;
+    }
+    .container-right-translate { 
+        transform: translateY(0px)
     }
     .stats-container {
         padding: 0px !important
@@ -29,7 +33,7 @@ html {
     
         }
         50% { 
-            transform: translate(0px, -40px);
+            transform: translate(0px, 40px);
         }
         100% { 
             transform: translate(0px, 0);
@@ -453,6 +457,12 @@ flex-direction: column;
     align-self: center;
     transition: box-shadow 100ms ease-in-out;
     box-shadow: -14px 10px 0px var(--primary);
+}
+@media screen and (max-width) {
+    .stats-video { 
+
+    }
+    
 }
 .stats-video:hover { 
     box-shadow: 0px 0px 0px #fff;
@@ -885,6 +895,8 @@ footer {
 
 /* swiper css */
 @media  screen and (max-width: 749px) {
+
+
     .swiper-slide { 
         width: 370px !important;
     }
