@@ -20,6 +20,9 @@ html {
     .container-right { 
         animation: slide3 20s linear infinite !important;
     }
+    .stats-container {
+        padding: 0px !important
+    }
     @keyframes slide3 { 
         0% { 
             transform: translate(0px, 0px);
