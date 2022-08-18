@@ -14,11 +14,17 @@
         left: none !important;
         padding: 0 !important;
     }
+
+ 
+
     .header-img {
         width: auto !important;
     } 
     header { 
+        text-align: center;
+        padding: 0 !important;
         flex-direction: column;
+        justify-content: center !important;
     }
     .circles  { 
         left: 0;
