@@ -369,8 +369,13 @@ background: transparent !important;
 }
 .container-right img { 
     object-fit: contain;
-    height: 100%;
+    height: 600px;
     width: 100%;
+}
+@media screen and (max-width: 749px) {
+    .container-left img  {
+        height: 100% !important;
+    }
 }
 @keyframes slide { 
     0% { 
@@ -400,8 +405,6 @@ background: transparent !important;
 .container-right-translate { 
     transform: translateY(-300px);
     transition: all 2.2 ease !important; 
-
-
 
 }
 
@@ -885,13 +888,13 @@ footer {
     .swiper-slide { 
         width: 370px !important;
     }
+    .swiper-wrapper {
+        gap: 50px;
     
+    }
 
 }
-.swiper-wrapper {
-    gap: 50px;
 
-}
 .swiper {
     width: -webkit-fill-available;
 }
