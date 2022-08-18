@@ -549,7 +549,7 @@ transition: box-shadow 100ms ease-in-out;
 }
 
 .flex-modifer { 
-    justify-content: normal;
+    justify-content: center;
     gap: 15px; 
     padding: 3rem 0rem;
 }
