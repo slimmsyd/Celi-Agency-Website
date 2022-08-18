@@ -28,7 +28,7 @@ html {
         padding: 0px !important
     }
 
-    .who-we-are, .container-right-footing  { 
+    .who-we-are, .container-right-footing, .header  { 
         padding: 0px 20px !important;
     }
     @keyframes slide3 { 
