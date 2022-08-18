@@ -18,7 +18,7 @@ html {
         padding: 0 !important;
     }
     .container-right { 
-        animation: slide3 20s linear infinite !important;
+        animation: slide3 5s linear infinite !important;
         height: auto !important;
     }
     .container-right-translate { 
