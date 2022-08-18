@@ -346,6 +346,10 @@ background: transparent !important;
     gap: 150px;
     background-size: cover;
 }
+@media screen and (max-width: 749px) {
+    .who-we-are {
+        gap: 0px;
+    }
 .who-we-are p { 
     font-size: 20px !important;
 }
@@ -905,10 +909,10 @@ footer {
 
 
     .swiper-slide { 
-        width: 370px !important;
+        width: 350px !important;
     }
     .swiper-wrapper {
-        gap: 60px;
+        gap: 50px;
     
     }
 
