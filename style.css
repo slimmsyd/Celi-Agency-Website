@@ -343,15 +343,14 @@ background: transparent !important;
     justify-content: space-between;
     /* gap: 10px; */
     z-index: -1;
-    gap: 150px;
+    gap: 15px;
     background-size: cover;
 }
 @media screen and (max-width: 749px) {
-    .who-we-are {
-        gap: 0px;
-    }
+
 .who-we-are p { 
     font-size: 20px !important;
+}
 }
 
 
@@ -909,10 +908,10 @@ footer {
 
 
     .swiper-slide { 
-        width: 350px !important;
+        width: 370px !important;
     }
     .swiper-wrapper {
-        gap: 30px;
+        gap: 50px;
     
     }
 
