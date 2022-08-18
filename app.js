@@ -1,4 +1,4 @@
-const placement = document.getElementById("placement")
+const placement = document.getElementById("calendly")
 const placementRec = placement.getBoundingClientRect().top;
 function getOffset(el) {
     const rect = el.getBoundingClientRect();
