@@ -53,10 +53,11 @@ html {
         width: auto !important;
     } 
     header { 
+        min-height: 65vh !important;
         text-align: center;
         padding: 0 !important;
         flex-direction: column;
-        justify-content: center !important;
+        justify-content: flex-start !important;
     }
     .circles  { 
         left: 0;
@@ -647,16 +648,19 @@ footer {
     }
 
     .padding { 
+        margin-bottom: 10px;
         padding-left: 5px;
         padding-right: 0;
     }
     .header { 
         min-width: 90%;
+        justify-content: flex-start;
     }
     .header .btn { 
         align-self: center;
     }
     .header h1 { 
+        padding-top: 10px;
         text-align: left;
         width:  100% !important;
     }
@@ -677,6 +681,7 @@ footer {
   .social-proof { 
     /* max-width: 80%; */
     justify-content: flex-start;
+    min-height: 20vh;
   }
   .social-proof-list li { 
     padding: 20px 0px 0px 0px;
