@@ -32,7 +32,7 @@ html {
     }
 
     .who-we-are, .container-right-footing, .header  { 
-        padding: 0px 20px !important;
+        padding: 0px 10px !important;
     }
     @keyframes slide3 { 
         0% { 
@@ -349,11 +349,7 @@ background: transparent !important;
     gap: 15px;
     background-size: cover;
 }
-@media screen and (max-width: 749px) {
-.who-we-are p { 
-    font-size: 20px !important;
-}
-}
+
 
 
 .container-left { 
@@ -453,7 +449,7 @@ flex-direction: column;
     margin:0;
 }
 .stats-inner-container p { 
-    font-size: 13px;
+    font-size: 13px !important;
 }
 
 .stats-video { 
@@ -470,12 +466,7 @@ flex-direction: column;
     box-shadow: -14px 10px 0px var(--primary);
     */
 }
-@media screen and (max-width) {
-    .stats-video { 
 
-    }
-    
-}
 .stats-video:hover { 
     box-shadow: 0px 0px 0px #fff;
     transition: box-shadow 100ms ease-in-out;
@@ -643,6 +634,13 @@ footer {
 /* Mobile response of  749px phones and below  */
 
 @media screen and (max-width: 749px) { 
+    
+    h1 { 
+        font-size: 23px !important;
+    }
+    p { 
+        font-size: 16px !important;
+    }
     .btn { 
         align-self: center;
         margin-top: 5rem;
@@ -659,10 +657,11 @@ footer {
         align-self: center;
     }
     .header h1 { 
-        font-size: 30px !important;
+        text-align: left;
         width:  100% !important;
     }
     .header p { 
+        text-align: left;
         width: 100% !important;
     }
     .nav { 
@@ -721,6 +720,15 @@ footer {
 .video-container { 
     display: none;
 }
+
+.social-proof > p { 
+    font-size: 19px !important;
+}
+
+.social-proof-list li { 
+    font-size: 16px;
+}
+
 
 }
 
