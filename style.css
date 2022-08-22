@@ -38,7 +38,7 @@ html {
         0% { 
             transform: translate(0px, 0px);
     
-        }
+        } 
         50% { 
             transform: translate(0px, 40px);
         }
@@ -46,7 +46,6 @@ html {
             transform: translate(0px, 0);
         }
     }
-
  
 
     .header-img {
@@ -108,7 +107,7 @@ img {
 :root { 
     --primary: #F4BE31;
     --shade: #868686;
-    --black: #292929
+    --black: #222222
     --translate: scale(0,1);
     --blue: #1D4FCE;
 }
@@ -214,6 +213,8 @@ button  {
 
 .padding {
     padding-left: 80px;
+    margin-bottom: 10px;
+
     /* padding-right: 80px; */
 }
 .nav {
@@ -361,7 +362,7 @@ background: transparent !important;
     flex-direction: column;
 }
 .container-left p { 
-    min-width: 200px !important;
+    width: 80%;
     font-size: 20px;
 
 }
@@ -385,6 +386,9 @@ background: transparent !important;
 @media screen and (max-width: 749px) {
     .container-left img  {
         height: 100% !important;
+    }
+    .container-left p { 
+        width: 100% !important;
     }
 }
 @keyframes slide { 
@@ -647,7 +651,6 @@ footer {
     }
 
     .padding { 
-        margin-bottom: 10px;
         padding-left: 5px;
         padding-right: 0;
     }
