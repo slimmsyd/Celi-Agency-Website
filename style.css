@@ -259,6 +259,7 @@ header {
 }
 .header p { 
     width: 691px;
+    margin-bottom: 0px;
 
 }
 .header-img { 
