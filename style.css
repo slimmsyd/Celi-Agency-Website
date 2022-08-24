@@ -87,7 +87,7 @@ body {
     margin: 0 !important;
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
-    text-align:center;
+    text-align:left;
 
 }
 img { 
@@ -358,7 +358,9 @@ background: transparent !important;
 .container-left { 
     min-width: 50%;
     min-height: 100%;
+    /*
     display: flex;
+    */
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
@@ -668,11 +670,11 @@ footer {
     }
     .header h1 { 
         padding-top: 10px;
-        text-align: left;
+        text-align: center;
         width:  100% !important;
     }
     .header p { 
-        text-align: left;
+        text-align: center;
         width: 100% !important;
     }
     .nav { 
