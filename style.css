@@ -155,6 +155,15 @@ button  {
     background: #2c2c2c !important;
     
 }
+.nav-btn { 
+    background: var(--primary);
+    width: 197px;
+    height: 53px;
+    border-radius: 46px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
 .btn { 
     background: var(--primary);
     width: 197px;
@@ -218,14 +227,13 @@ button  {
 
 .padding {
     padding-left: 80px;
-    margin-bottom: 10px;
 
     /* padding-right: 80px; */
 }
 .nav {
     box-sizing: border-box !important;
     width: 100%;
-    height: 15vh;
+    height: 10vh;
     display: flex;
     
     /* position: fixed; */
@@ -355,7 +363,7 @@ background: transparent !important;
     /* gap: 10px; */
     z-index: -1;
     gap: 15px;
-    background-size: cover;
+    background-size: initial;
 }
 
 
