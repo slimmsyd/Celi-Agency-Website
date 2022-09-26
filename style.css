@@ -111,6 +111,7 @@ img {
     --black: #222222
     --translate: scale(0,1);
     --blue: #1D4FCE;
+    --vibrant: #F76BF7;
 }
 #bold { 
     color: var(--black);
@@ -140,8 +141,7 @@ h3 {
 p {
     font-size: 19px;
 
-    color: #202020;
-    
+
 }
 
 .hidden { 
@@ -151,6 +151,15 @@ button  {
     cursor: pointer;
 }
 
+.nav-btn { 
+    background: var(--primary);
+    width: 197px;
+    height: 53px;
+    border-radius: 46px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
 .btn { 
     background: var(--primary);
     width: 197px;
@@ -211,14 +220,13 @@ button  {
 }
 
 #nav-btn {
-    color:black;
-    background-color: #ffff;
+    color:#2c2c2c;
+    background-color: #fff;
 }
 
 
 .padding {
     padding-left: 80px;
-    margin-bottom: 10px;
 
     /* padding-right: 80px; */
 }
@@ -232,6 +240,7 @@ button  {
     align-items: center;
     justify-content: space-between;
     background-color:  var(--primary);
+    background-color: var(--primary);
     padding-right: 80px;
     box-shadow: 0px 4px 14px -4px rgba(0, 0, 0, 0.25);
     z-index: 10;
@@ -310,7 +319,8 @@ header {
 }
 .social-proof-list li {
     font-size: 40px;
-    color: var(--shade);
+      color: #2c2c2c;
+
 }
 /* SOCIAL PROOF  */
 
@@ -582,7 +592,7 @@ transition: box-shadow 100ms ease-in-out;
     min-height: 90vh;
     display: flex;
     flex-direction: row;
-    background: url("./images/WhiteBG.png");
+    background: url("./images/WhiteBGMBMB.png");
     gap: 150px;
     align-items: center;
     background-repeat: no-repeat;
@@ -841,7 +851,7 @@ footer {
     width: 150px;
     height: 150px;
     animation-delay: 7s;
-    background: var(--primary)
+    background: var(--vibrant)
 
 }
 
@@ -907,7 +917,8 @@ footer {
 }
 
 #meet-team { 
-    background: url("/images/PurplgeBG.png") !important;
+    /* background: url("/images/WhiteBGMBMB.png") !important; */
+    background: url("/images/VibrantBG.png") !important;
     background-size: cover;
     background-position: center center;   
     background-repeat: no-repeat;
